@@ -5,3 +5,5 @@ torchaudio
 git+https://github.com/facebookresearch/seamless_communication.git
 --pre --extra-index-url https://fair.pkg.atmeta.com/fairseq2/pt2.1.0/cu121
 fairseq2 
+gradio==3.44.3 
+gradio_client==0.5.0
