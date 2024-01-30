@@ -4,7 +4,7 @@ import mmap
 import numpy
 import torchaudio
 import torch
-import spaces
+#import spaces #comment out if you using Zero-GPU
 import datetime
 from collections import defaultdict
 from pathlib import Path
@@ -94,7 +94,7 @@ def format_prompt(message, history):
   return prompt
 
     
-@spaces.GPU()
+# @spaces.GPU()  #comment out if you using Zero-GPU
 def generate(
     prompt, history, system_prompt, temperature=0.9, max_new_tokens=256, top_p=0.95, repetition_penalty=1.0,
 ):
