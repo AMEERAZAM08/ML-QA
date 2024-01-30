@@ -28,7 +28,7 @@ This Space demonstrates how to interact with a chatbot using open accessible mod
 - **Description**: This Multilingual TTS (Text-to-Speech) model generates audio from the chatbot's text responses. The model is hosted locally.
 
 ## Preview
-  ![ML-QA VoiceChatbot App](imgs/data.gif)
+  ![ML-QA VoiceChatbot App](/data.gif)
   
 ## Installation
 
